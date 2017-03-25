@@ -1,0 +1,22 @@
+
+> ghost@0.11.7 start /root/node
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at http://support.ghost.org/mail.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://195.114.211.40:2368 
+Ctrl+C to shut down
+195.114.211.40 - - [23/Mar/2017:16:16:56 +0000] "GET /ghost/img/ghosticon.jpg HTTP/1.1" 200 2499 "-" "Mozilla/5.0"
+2.136.230.194 - - [23/Mar/2017:16:16:56 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:16:56 +0000] "GET /assets/css/screen.css?v=73814d7b7a HTTP/1.1" 200 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:16:56 +0000] "GET /assets/js/index.js?v=73814d7b7a HTTP/1.1" 200 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:16:56 +0000] "GET /assets/js/jquery.fitvids.js?v=73814d7b7a HTTP/1.1" 200 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:16:57 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.1" 304 - "http://195.114.211.40:2368/hola/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:17:06 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:17:07 +0000] "GET /assets/css/screen.css?v=73814d7b7a HTTP/1.1" 304 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:17:07 +0000] "GET /assets/js/jquery.fitvids.js?v=73814d7b7a HTTP/1.1" 304 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:17:07 +0000] "GET /assets/js/index.js?v=73814d7b7a HTTP/1.1" 304 - "http://195.114.211.40:2368/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"
+2.136.230.194 - - [23/Mar/2017:16:17:07 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.1" 304 - "http://195.114.211.40:2368/hola/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1"

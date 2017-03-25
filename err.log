@@ -1,0 +1,4 @@
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at http://support.ghost.org/mail.[0m
+

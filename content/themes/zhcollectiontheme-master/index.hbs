@@ -1,0 +1,50 @@
+{{!< default}}
+
+<main class="container">
+    
+    <div class="row zh-dashboard-list">
+        
+        {{! First column}}
+        <div id="collection-col-1" class="animated fadeInUp col s12 m7 l4">
+        
+            {{! About me}}
+            {{> dashboard_aboutme}}
+
+            {{! BOOKS BLOG}}
+            {{> dashboard_books}}
+
+            {{! iOS Blog}}
+            {{> dashboard_ios}}
+            
+        </div>
+        
+        {{! Second column}}
+        <div id="collection-col-2" class="animated fadeInUp col s12 m7 l4">
+            
+            {{! Projects}}
+            {{> dashboard_projects}}
+            
+            {{! GALLERY}}
+            {{> dashboard_gallery}}  
+
+            {{! Spotify playlist}}
+            {{> dashboard_spotify}}
+
+        </div>
+        
+        {{! Third column}}
+        <div id="collection-col-3" class="animated fadeInUp col s12 m7 l4">
+
+            {{! thoughts blog}}
+            {{> dashboard_thoughts}}
+
+            {{! video demo}}
+            {{> dashboard_video}}
+            
+    {{! End of Row}} 
+    </div>
+    
+    {{! Floating Bottom Right Button}} 
+    {{> shared_returnToTop}}
+</div>
+</main>

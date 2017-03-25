@@ -1,0 +1,42 @@
+{{!< default}}
+        <main class="zh-div-list">
+            {{#foreach posts}}
+            <div class="row animated fadeInUp">
+                <div class="col s12 m12 l6 offset-l3">
+                    <article class="card hoverable">
+                        <div class="card-content">
+                            <div class="card-header">
+                                {{!post meta (time posted, tags)}}
+                                <div class="card-meta blue-grey-text text-lighten-2">
+                                    {{> shared_dateControl}}
+                                </div>
+                                {{!Post Title}}
+                                <h2 class="card-title">
+                                    <a class="amber-text text-darken-2" href="{{url}}">{{title}}</a>
+                                </h2>
+                            </div>
+                            
+                            {{!Post Content with limitation of 50 words}}
+                            <p class="grey-text text-darken-1">{{excerpt characters="95"}}&hellip;</p>
+                        </div>
+                        
+                        <div class="row"></div>
+                        <div class="divider"></div>
+                        
+                        <div class="card-content">
+                            <div class="card-meta">
+                            <a class="waves-effect waves-light btn right hvr-icon-wobble-horizontal amber darken-2" href="{{url}}">More&nbsp;</a>
+                            </div>
+                            
+                            {{! social network share btns}}
+                            {{> "share-post"}}
+                            
+                            
+                        </div>
+                    </article>
+                </div>
+            </div>
+            {{/foreach}}
+            {{! Blog pagination }}
+            {{#if pagination}}{{pagination}}{{/if}}
+        </main>
